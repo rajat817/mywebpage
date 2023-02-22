@@ -1,0 +1,47 @@
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: #0066FF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.front{
+    background-image: url(imags/fornt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Rest{
+    background-image: url(imags/2nd.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.color{
+    background-color: #002233;
+}
+
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family: "poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
